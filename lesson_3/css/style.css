@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+* {
+	color: red;
+}
+
+.title {
+	color: rgb(139, 93, 225);
+}
+
+.item-link.black {
+	color: black;
+}
+
+.item-link.orange {
+	color: orange;
+}
+
+.text {
+	color: chocolate;
+}
+
+.block .block-text {
+	color: rgb(60, 215, 106);
+}
+
+.images+p {
+	color: blue;
+}
+
+.text mark {
+	color: darkblue;
+}
+
+.footer .link {
+	color: chartreuse;
+}
