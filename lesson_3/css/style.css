@@ -4,8 +4,8 @@
 	color: red;
 }
 
-.title {
-	color: rgb(139, 93, 225);
+[class*="tle"] {
+	color: rgba(144, 4, 4, 0.826);
 }
 
 .item-link.black {
@@ -20,8 +20,16 @@
 	color: chocolate;
 }
 
+#some-id {
+	color: rgb(50, 66, 205);
+}
+
 .block .block-text {
 	color: rgb(60, 215, 106);
+}
+
+.block-item>h2 {
+	color: blueviolet;
 }
 
 .images+p {
@@ -32,6 +40,6 @@
 	color: darkblue;
 }
 
-.footer .link {
-	color: chartreuse;
+.footer-img~a {
+	color: rgb(205, 50, 122);
 }
