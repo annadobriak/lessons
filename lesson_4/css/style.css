@@ -1,0 +1,135 @@
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap'); */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:regular,600,700&display=swap");
+
+
+/* ****************підключення шрифтів --- практика***************** */
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Montserrat:ital,wght@0,800;1,800&display=swap') */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,800&display=swap"); */
+/* ****************************************************************** */
+
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url(reset.css);
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #2b2929;
+	line-height: 1.3889;
+}
+
+.title {
+	text-align: center;
+	font-size: 64px;
+	font-style: italic;
+	color: rgba(144, 4, 4, 0.826);
+	text-transform: uppercase;
+	word-spacing: 5px;
+	white-space: nowrap;
+}
+
+.list {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.item-link .link {
+	font-size: 24px;
+	font-style: oblique;
+	color: black;
+	text-decoration: underline;
+}
+
+.item-link.orange .link {
+	color: orange;
+}
+
+#some-id {
+	color: rgb(50, 66, 205);
+}
+
+.block-text {
+	color: rgb(60, 215, 106);
+	text-align: justify;
+}
+
+.block-item {
+	text-align: center;
+}
+
+.block-item>h2 {
+	text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4), -1px 0px 8px red;
+	color: blueviolet;
+	font-size: 24px;
+	letter-spacing: 10px;
+	text-transform: capitalize;
+}
+
+.images+p {
+	color: blue;
+	text-align: right;
+}
+
+.text {
+	color: chocolate;
+	font-family: "PFDinTextCondPro", sans-serif;
+	font-size: 20px;
+
+}
+
+.text mark {
+	color: darkblue;
+}
+
+.footer-img~a {
+	color: rgb(205, 50, 122);
+}
+
+.link span {
+	text-decoration: line-through;
+	text-decoration-color: rgb(7, 3, 3);
+}
+
+/* стилі для блоків з макету KROVATO  */
+
+.title-krovato {
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.2;
+	/* 48/40 */
+}
+
+.text-item {
+	font-family: "Proxima Nova";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	/* 30/16 */
+}
+
+.sub-title-decoration {
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28/20 */
+}
