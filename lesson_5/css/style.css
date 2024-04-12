@@ -1,0 +1,189 @@
+/* підключення шрифту Roboto через плагін */
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	line-height: 1.875;
+	/* 30/16 */
+}
+
+.header-wrap {
+	padding: 40px 40px 30px 40px;
+}
+
+.title-home {
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.list-item {
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+
+.products {
+	background-color: #1e28320d;
+	margin-bottom: 140px;
+}
+
+.products-wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1320px;
+	overflow: hidden;
+}
+
+.products-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	color: #000;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 60px;
+}
+
+.items-images {
+	font-size: 0;
+	margin-left: -12px;
+	margin-right: -12px;
+	margin-bottom: 70px;
+}
+
+.item-image {
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 16.666%;
+}
+
+.item-image img {
+	width: 100%;
+}
+
+/* стилі для блоків з макету KROVATO  */
+
+.decoration {
+	background-color: #1e28320d;
+	margin-bottom: 140px;
+}
+
+.decoration-wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1070px;
+	padding-top: 75px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	/* 48/40 */
+}
+
+.title-krovato {
+	margin-bottom: 40px;
+}
+
+.decoration-image {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.text-items {
+	margin-bottom: 40px;
+}
+
+.sub-title-decoration {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28/20 */
+	margin-bottom: 30px;
+}
+
+.list-decoration {
+	margin-bottom: 20px;
+}
+
+.item-list {
+	padding-left: 47px;
+	padding-bottom: 20px;
+}
+
+.text-item {
+	padding-bottom: 20px;
+}
+
+.advantages {
+	background-color: #1e28320d;
+	margin-bottom: 100px;
+}
+
+.advantages-wrap {
+	padding: 70px 0;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1290px;
+	overflow: hidden;
+}
+
+.advantages-title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.advantages-items {
+	font-size: 0;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.advantages-item {
+	display: inline-block;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 25%;
+	vertical-align: top;
+}
+
+.advantages-item img {
+	padding-bottom: 20px;
+}
+
+.advantages-sub-title {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.30769231;
+	/* 34px/26 */
+	padding-bottom: 20px;
+}
+
+.advantages-item p {
+	font-size: 16px;
+}
+
+.footer-wrap {
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.footer-wrap p {
+	padding-bottom: 20px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.link {
+	padding-right: 20px;
+}
