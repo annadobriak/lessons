@@ -1,0 +1,282 @@
+/* підключення шрифту Roboto, Quicksand через плагін */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	line-height: 1.875;
+	/* 30/16 */
+}
+
+/* блок header */
+
+.header,
+.footer {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(118, 9, 121, 0.21060924369747902) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.header-wrap,
+.footer-wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1320px;
+	padding: 40px 40px 30px 40px;
+	border: 10px double blueviolet;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.title-home {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-shadow: 4px -2px 5px rgb(226 106 226);
+
+}
+
+.flower {
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.petal-left {
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 92, 0.8436624649859944) 36%, rgba(0, 212, 255, 1) 100%);
+	border-radius: 44% 56% 0% 100% / 45% 76% 24% 55%;
+	display: inline-block;
+}
+
+.petal-right {
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 92, 0.8436624649859944) 36%, rgba(0, 212, 255, 1) 100%);
+	border-radius: 49% 51% 100% 0% / 59% 47% 53% 41%;
+	display: inline-block;
+}
+
+.petal-bottom-left {
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 92, 0.8436624649859944) 36%, rgba(0, 212, 255, 1) 100%);
+	border-radius: 61% 39% 49% 51% / 53% 0% 100% 47%;
+	display: inline-block;
+}
+
+.petal-bottom-right {
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 92, 0.8436624649859944) 36%, rgba(0, 212, 255, 1) 100%);
+	border-radius: 0% 100% 43% 57% / 39% 48% 52% 61%;
+	display: inline-block;
+}
+
+
+
+.list-item {
+	font-size: 30px;
+	margin-bottom: 10px;
+	border: 2px dotted blueviolet;
+}
+
+/* стилі для блоків з макету KROVATO  */
+
+.decoration {
+	background: #1e28320d;
+	border-bottom: 2px dashed rgb(75, 71, 71);
+}
+
+.decoration-wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1070px;
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	/* 48/40 */
+}
+
+.title-krovato {
+	margin-bottom: 40px;
+}
+
+.decoration-image {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.text-items {
+	margin-bottom: 40px;
+}
+
+.sub-title-decoration {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28/20 */
+	margin-bottom: 30px;
+}
+
+.list-decoration {
+	margin-bottom: 20px;
+}
+
+.item-list {
+	background: url('../img/Vector.svg') 0 0 no-repeat;
+	padding-left: 47px;
+	margin-bottom: 20px;
+}
+
+/* блок сollections */
+.сollections {
+	background: #f4f4f5 url('../img/flower-pattern.png') center/ cover no-repeat;
+}
+
+.сollections-wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1320px;
+	font-size: 0;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.сollections-content {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 686px;
+
+}
+
+.сollections-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 74px;
+	line-height: 74.324324%;
+	/* 55px/74 */
+	margin-bottom: 55px;
+	text-transform: capitalize;
+}
+
+.сollections-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 30px;
+	line-height: 1.83333333;
+	/* 55px/30 */
+	margin-bottom: 66px;
+	text-transform: capitalize;
+}
+
+.btn-link {
+	background: #1e2832 url('../img/icon_bag.svg') 40px 31px no-repeat;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 29px;
+	padding: 19px 26px 19px 72px;
+	text-transform: capitalize;
+}
+
+
+.сollections-image {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 98px;
+}
+
+.сollections-image img {
+	width: 100%;
+}
+
+/* блок subjects */
+.subjects {
+	background: #914cff url('../img/holographic.png') center/ cover no-repeat;
+}
+
+.subjects-wrap {
+	background: url('../img/alphabet_patterns.svg') right/ contain no-repeat;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1280px;
+	font-size: 0;
+}
+
+.subjects-content {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 600px;
+
+}
+
+.content-title {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 40px;
+	line-height: 1.2;
+	/* 48px/40px */
+	margin-bottom: 24px;
+}
+
+.content-text {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.60;
+	/* 32px/20 */
+	margin-bottom: 24px;
+}
+
+.button-link {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	color: #0d1216;
+	font-size: 16px;
+	line-height: 1.5625;
+	/* 25px/16 */
+	padding: 12px 20px 12px 72px;
+	border-radius: 8px 8px 8px 8px;
+	background: #fff url('../img/button_label.png') 54px 16px no-repeat;
+}
+
+
+.subjects-image {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 133px;
+}
+
+.subjects-image img {
+	width: 100%;
+}
+
+/* footer */
+.footer-wrap {
+	text-align: center;
+}
+
+.arrow-top a {
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-bottom: 100px solid blueviolet;
+	display: inline-block;
+}
