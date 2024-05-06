@@ -1,0 +1,125 @@
+/* підключення шрифту Roboto, Quicksand через плагін */
+
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	line-height: 1.5;
+	/* 30/16 */
+}
+
+/* блок header */
+
+.container {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 0 15px;
+}
+
+.header-wrap,
+.footer-wrap {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.title-home,
+.footer-wrap a {
+	font-size: 45px;
+	font-weight: 700;
+	padding: 20px 0;
+	text-shadow: 4px -2px 5px rgb(226 106 226);
+	border: 3px solid blueviolet;
+	border-radius: 15px;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(118, 9, 121, 0.21060924369747902) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.title-name {
+	font-size: 55px;
+}
+
+.footer-wrap a {
+	display: block;
+}
+
+.title-home,
+.footer-wrap a:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+
+
+/* *************************************************************************************** */
+.page {
+	background-color: #F8F8F8;
+	padding: 100px 0;
+}
+
+.page-wrap {
+	border: 3px solid blueviolet;
+	border-radius: 15px;
+}
+
+.page-wrap:not(:last-child) {
+	margin-bottom: 100px;
+}
+
+.description {
+	background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+	border-radius: 15px;
+	padding: 50px;
+}
+
+.text {
+	font-size: 32px;
+}
+
+.text:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.text img {
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.title img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.question {
+	background: url("../img/question.svg")0 0 no-repeat;
+	padding-left: 65px;
+}
+
+.arrow_down {
+	background: url("../img/arrow_down.svg")0 21px no-repeat;
+	padding-left: 65px;
+}
+
+.arrow_up {
+	background: url("../img/arrow_up.svg")0 21px no-repeat;
+	padding-left: 65px;
+}
+
+/* ============================================================== */
+
+.footer-wrap a::after {
+	content: "";
+	background: url("../img/arrow_up.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-left: 15px;
+	text-align: middle;
+}
