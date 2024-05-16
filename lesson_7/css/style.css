@@ -1,0 +1,575 @@
+/* підключення шрифту Roboto, Quicksand через плагін */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	line-height: 1.875;
+	/* 30/16 */
+}
+
+/* блок header */
+
+.header,
+.footer {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(118, 9, 121, 0.21060924369747902) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.header_container,
+.study-container,
+.game_container {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 0 15px;
+}
+
+.header-wrap,
+.footer-wrap {
+	padding: 40px 40px 30px 40px;
+	border: 3px solid blueviolet;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.title-home {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-shadow: 4px -2px 5px rgb(226 106 226);
+
+}
+
+.title-name {
+	font-size: 55px;
+}
+
+
+/* *************************************************************************************** */
+/* ============================================= */
+/* =============== Псевдокласи ================= */
+/* ============================================= */
+
+.study_block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.study-title {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 600;
+	margin-bottom: 44px;
+}
+
+.study-wrap {
+	font-size: 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.study-wrap:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.study-link {
+	padding: 10px 20px;
+	background-color: #6c62ab;
+	border-radius: 10px;
+	font-weight: 600;
+	box-shadow: 10px -9px 5px 0px rgba(0, 0, 0, 0.5);
+	font-size: 18px;
+}
+
+.study-link:not(:last-child) {
+	margin-right: 38px;
+}
+
+
+.study-link:hover {
+	background-color: #aca5d9;
+}
+
+.description {
+	margin-bottom: 20px;
+}
+
+.study-text {
+	font-size: 22px;
+}
+
+.study-text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.study-text span {
+	color: #6c62ab;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+
+.study-items {
+	font-size: 0;
+}
+
+.study-item {
+	padding: 10px;
+	background-color: #aca5d9;
+	display: inline-block;
+	font-size: 22px;
+	border-radius: 5px;
+}
+
+.study-item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.first-item li:first-child {
+	background-color: #77608d;
+}
+
+.last-item li:last-child {
+	background-color: #77608d;
+}
+
+.study-first_type div:first-of-type {
+	background-color: #77608d;
+}
+
+.study-items p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.study-last_type div:last-of-type {
+	background-color: #77608d;
+}
+
+.study-ntc_child li:nth-child(7) {
+	background-color: #77608d;
+}
+
+.study-odd li:nth-child(odd) {
+	background-color: #77608d;
+}
+
+.study-even li:nth-child(even) {
+	background-color: #77608d;
+}
+
+.study-algorithm {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 28px;
+}
+
+.study-each_one li:nth-child(5n) {
+	background-color: #77608d;
+}
+
+.study-present li:nth-child(4n+2) {
+	background-color: #77608d;
+}
+
+/* Гарна практика */
+
+/* Вказуємо відсуп за замовченням */
+.article-practice>* {
+	margin-bottom: 15px;
+}
+
+.title-practice {
+	font-weight: 700;
+	font-size: 24px;
+	/* Задаємо свій відступ за потреби */
+	margin-bottom: 25px;
+}
+
+.content-practice {
+	line-height: 1.2;
+}
+
+.button-practice {
+	background-color: yellow;
+	padding: 12px;
+	border-radius: 5px;
+	color: #000;
+}
+
+.button-practice:hover {
+	background-color: rgb(35, 238, 16);
+}
+
+.article-practice>*:last-child {
+	margin-bottom: 0px;
+}
+
+/* стилі для блоків з макету KROVATO  */
+
+.decoration {
+	background: #1e28320d;
+	border-bottom: 2px dashed rgb(75, 71, 71);
+}
+
+.decoration-wrap {
+	margin: 0 auto;
+	max-width: 1070px;
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	/* 48/40 */
+}
+
+.title-krovato {
+	margin-bottom: 40px;
+}
+
+.decoration-image {
+	width: 100%;
+	margin-bottom: 40px;
+	border-radius: 8px;
+}
+
+.text-items {
+	margin-bottom: 40px;
+}
+
+.sub-title-decoration {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28/20 */
+	margin-bottom: 30px;
+}
+
+.list-decoration {
+	margin-bottom: 20px;
+}
+
+.item-list {
+	background: url('../img/vector.svg') 0 0 no-repeat;
+	padding-left: 47px;
+	margin-bottom: 20px;
+}
+
+
+/* блок з макету Portfolio */
+
+.article {
+	padding: 120px 0 120px;
+	background-color: #000;
+}
+
+.article-container {
+	max-width: 1300px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.content-wrap {
+	max-width: 992px;
+	margin: 0 auto;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.title-article {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.16;
+	/* 70px/60 */
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+.title-article::after {
+	margin-top: 20px;
+	height: 1px;
+	display: block;
+	margin-left: -50px;
+	margin-right: -50px;
+	content: "";
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 51%, rgba(36, 0, 255, 1) 100%);
+}
+
+.content p {
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2.22;
+	/* 40px/18 */
+}
+
+.skills-article {
+	font-size: 0;
+	text-align: center;
+}
+
+
+.item-skill {
+	font-family: "Orbitron", sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.25;
+	/* 25px/20 */
+	display: inline-block;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.item-skill::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, #f00 0%, #42ff00 48.9%, #250af5 98%, #2400ff 100%);
+	margin-left: 60px;
+}
+
+.item-skill:not(:last-child) {
+	margin-right: 60px;
+}
+
+/* блок з макету Portfolio - contacts */
+.contacts {
+	padding: 160px 0 110px;
+	background-color: #000;
+}
+
+.contacts-wrap {
+	max-width: 1300px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.contacts-content {
+	max-width: 960px;
+}
+
+.contacts-title {
+	font-family: "Exo", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 60px;
+	line-height: 1.16;
+	/* 70px/60 */
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.contacts-title::after {
+	margin-top: 20px;
+	height: 1px;
+	display: block;
+	content: "";
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 51%, rgba(36, 0, 255, 1) 100%);
+}
+
+.contacts-list {
+	font-size: 0;
+}
+
+.contact-item {
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: -1px;
+	display: inline-block;
+}
+
+.contact-item:hover {
+	text-decoration: underline;
+}
+
+.contact-item:not(:last-child) {
+	margin-right: 80px;
+}
+
+.icon-call::before {
+	content: "";
+	background: url("../img/call.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.icon-location {
+	text-transform: capitalize;
+}
+
+.icon-location::before {
+	content: "";
+	background: url("../img/location.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.icon-email::before {
+	content: "";
+	background: url("../img/email.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+/* ============================================================== */
+/* game */
+
+.game-wrap {
+	background: url("../img/game_1.jpg") 0 0/100% no-repeat;
+	padding: 50px;
+	text-align: center;
+}
+
+.title-game {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.game {
+	min-height: 670px;
+	font-size: 0;
+}
+
+.game__line {
+	background-color: rgb(208, 223, 42);
+}
+
+.game__line-1 {
+	width: 30px;
+	height: 60px;
+}
+
+.game__line-2 {
+	width: 30px;
+	height: 50px;
+}
+
+.game__line-2 span {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.game__line-1:hover+.game__line-2,
+.game__line-2:hover {
+	width: 100%;
+	font-size: 20px;
+}
+
+.game__line-3 {
+	visibility: hidden;
+	width: 50px;
+	height: 100px;
+	display: inline-block;
+	margin-left: 1140px;
+}
+
+.game__line-2:hover~.game__line-3,
+.game__line-3:hover {
+	display: inline-block;
+	visibility: visible;
+}
+
+.game__line-4 {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	visibility: hidden;
+}
+
+.game__line-3:hover~.game__line-4,
+.game__line-4:hover {
+	display: block;
+	visibility: visible;
+	font-size: 20px;
+}
+
+
+.game__line-5 {
+	width: 40px;
+	height: 100px;
+	visibility: hidden;
+	background-color: rgb(181, 100, 163);
+}
+
+.game__line-4:hover~.game__line-5,
+.game__line-5:hover {
+	display: block;
+	visibility: visible;
+	font-size: 20px;
+}
+
+/* .game__line-5:hover {
+	font-size: 20px;
+} */
+
+
+.game__line-6 {
+	visibility: hidden;
+	height: 20px;
+	width: 20px;
+	background-color: rgb(104, 34, 89);
+}
+
+.game__line-5:hover~.game__line-6,
+.game__line-6:hover {
+	visibility: visible;
+	display: block;
+}
+
+
+.game-img {
+	visibility: hidden;
+	height: 250px;
+	font-size: 26px;
+}
+
+.game__line-6:hover~.game-img,
+.game-img:hover {
+	visibility: visible;
+	background: url("../img/prapor.jpg") 0 0 / contain no-repeat;
+}
+
+/* ============================================================== */
+
+.footer-wrap a::after {
+	content: "";
+	background: url("../img/arrow_up.svg") 0 5px no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-left: 15px;
+}
+
+.arrow-top a {
+	font-size: 30px;
+	font-weight: 600;
+}

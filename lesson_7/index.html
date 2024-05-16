@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_7</title>
+</head>
+
+<body>
+	<header class="header" id="section-7">
+		<div class="header_container">
+			<div class="header-wrap">
+				<h1 class="title-home">Домашне завдання №7</h1>
+				<h2 class="title-name">Псевдокласи та псевдоелементи</h2>
+			</div>
+		</div>
+	</header>
+	<main class="page">
+		<div class="study-container">
+			<div class="study_block">
+				<h2 class="study-title">Псевдокласи стану</h2>
+				<div class="study-wrap">
+					<a href="#section-1" class="study-link">:hover</a>
+					<a href="#section-2" class="study-link">:active</a>
+					<a href="#section-3" class="study-link">:visited</a>
+					<a href="#section-4" class="study-link">:focus</a>
+					<a href="#section-5" class="study-link">:focus-visible</a>
+					<a href="#section-6" class="study-link">:target</a>
+				</div>
+
+				<div class="description">
+					<p class="study-text" id="section-1"><span>:hover</span>
+						Звернення до елемента у стані "при наведенні миші"
+					</p>
+					<p class="study-text" id="section-2"><span>:active</span>
+						Звернення до елемента у стані "при натиснутій клавіші миші"
+					</p>
+					<p class="study-text" id="section-3"><span>:visited</span>
+						Звернення до елемента у стані "відвіданого посилання"
+					</p>
+					<p class="study-text" id="section-4"><span>:focus</span>
+						Звернення до елементу у стані "фокусу"
+					</p>
+					<p class="study-text" id="section-5"><span>:focus-visible</span>
+						Звернення до елементу у стані "фокусу" (при користуванні кнопкою Tab на клавіатурі)
+					</p>
+					<p class="study-text" id="section-6"><span>:target</span>
+						Звернення до елемента у стані "ефекту від посилання з іншого об'єкту"
+					</p>
+				</div>
+				<h3 class="study-title">
+					Псевдокласи положення у коді
+				</h3>
+				<div class="study-wrap">
+					<p class="study-text"><span>:first-child</span>
+						Звернення до першого дочірнього елементу в коді
+					</p>
+					<ul class="study-items first-item">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+				<div class="study-wrap">
+					<p class="study-text"><span>:last-child</span>
+						Звернення до останього дочірнього елементу в коді
+					</p>
+					<ul class="study-items last-item">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+				<div class="study-wrap">
+					<p class="study-text"><span>:first-of-type</span>
+						Звернення до першого ВКАЗАНОГО дочірнього елементу в коді
+					</p>
+					<div class="study-items study-first_type">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nulla accusamus nobis quo aspernatur
+							culpa cumque perferendis hic qui rerum laborum ab quibusdam error ut, fugiat numquam ea, quae
+							natus?
+						</p>
+						<div class="study-item">1</div>
+						<div class="study-item">2</div>
+						<div class="study-item">3</div>
+						<div class="study-item">4</div>
+						<div class="study-item">5</div>
+						<div class="study-item">6</div>
+						<div class="study-item">7</div>
+						<div class="study-item">8</div>
+						<div class="study-item">9</div>
+						<div class="study-item">10</div>
+					</div>
+				</div>
+				<div class="study-wrap">
+					<p class="study-text"><span>:last-of-type</span>
+						Звернення до останього ВКАЗАНОГО дочірнього елементу в коді
+					</p>
+					<div class="study-items study-last_type">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nulla accusamus nobis quo aspernatur
+							culpa cumque perferendis hic qui rerum laborum ab quibusdam error ut, fugiat numquam ea, quae
+							natus?
+						</p>
+						<div class="study-item">1</div>
+						<div class="study-item">2</div>
+						<div class="study-item">3</div>
+						<div class="study-item">4</div>
+						<div class="study-item">5</div>
+						<div class="study-item">6</div>
+						<div class="study-item">7</div>
+						<div class="study-item">8</div>
+						<div class="study-item">9</div>
+						<div class="study-item">10</div>
+					</div>
+				</div>
+
+				<div class="study-wrap">
+					<p class="study-text"><span>:ntc-child</span>
+						Звернення до конкретного елементу в коді
+					</p>
+					<ul class="study-items study-ntc_child">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+
+				<div class="study-wrap">
+					<p class="study-text"><span>:ntc-child(odd)</span>
+						Звернення до не парних елементів в коді
+					</p>
+					<ul class="study-items study-odd">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+
+				<div class="study-wrap">
+					<p class="study-text"><span>:ntc-child(even)</span>
+						Звернення до парних елементів в коді
+					</p>
+					<ul class="study-items study-even">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+
+				<h3 class="study-algorithm">
+					Алгоритм "кожен-через"
+				</h3>
+				<div class="study-wrap">
+					<p class="study-text"><span>:ntc-child(n)</span>
+						Звернення до кожного n-го дочірнього елементу в коді (кожен п'ятий)
+					</p>
+					<ul class="study-items study-each_one">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+
+				<h3 class="study-algorithm">
+					кожен n + починаючи з...
+				</h3>
+				<div class="study-wrap">
+					<p class="study-text"><span>:ntc-child(n + 1)</span>
+						Звернення до кожного n-го дочірнього елементу в коді починаючи з заданого (кожен четвертий починаючи з
+						другого)
+					</p>
+					<ul class="study-items study-present">
+						<li class="study-item">1</li>
+						<li class="study-item">2</li>
+						<li class="study-item">3</li>
+						<li class="study-item">4</li>
+						<li class="study-item">5</li>
+						<li class="study-item">6</li>
+						<li class="study-item">7</li>
+						<li class="study-item">8</li>
+						<li class="study-item">9</li>
+						<li class="study-item">10</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- блок з макету KROVATO -->
+		<section class="decoration" id="section-1">
+			<div class="decoration-wrap">
+				<h4 class="title-krovato title">
+					Оформлення вітальні. Які м'які меблі краще вибрати?
+				</h4>
+				<img class="decoration-image" src="img/living_room.svg" alt="Вітальня">
+				<div class="text-items">
+					<p>
+						Вітальня – це основна кімната у кожному будинку. Саме вона служить для
+						прийому гостей, проведення часу всією сім'єю та просто для відпочинку
+						у приємній теплій атмосфері. Оформляючи свій будинок та вітальню зокрема,
+						всі намагаються зробити її максимально зручною, комфортною та красивою.
+						Основним та центральним елементом оформлення вітальні, як і будь-якої
+						іншої кімнати, є м'які меблі.
+					</p>
+					<p>
+						Будь-які меблі для вітальні повинні бути не тільки стильними і красивими,
+						але і функціональними. На таких меблів має бути зручно та приємно
+						відпочивати та приймати гостей. Однак сьогодні існує величезна
+						різноманітність найрізноманітніших м'яких меблів для вітальні, яка
+						підходить для кімнат різних розмірів і форм. На чому варто зупинити свій
+						вибір? Як краще оформити свою вітальню, щоб вам було комфортно, а гості
+						хотіли приходити до вас знову та знову?
+					</p>
+				</div>
+				<h4 class="sub-title-decoration">
+					На сайті інтернет магазину Кровато представлено велику різноманітність
+					м'яких меблів для вітальні, серед яких кожен зможе вибрати для себе
+					найбільш вдалий варіант. У нас ви знайдете:
+				</h4>
+				<ul class="list-decoration">
+					<li class="item-list">
+						Прямі дивани. Такі дивани вважаються класикою. Вони підходять для віталень
+						будь-яких форм та розмірів. Прямий диван виглядає стильно та лаконічно, на
+						ньому зручно відпочивати, приймати гостей або навіть спати. Прямі дивани
+						можуть стояти біля стіни, так і в центрі кімнати. Багато моделей прямих
+						диванів легко розкладаються, перетворюючись на повноцінне спальне місце.
+						Також більшість диванів мають великі та місткі ніші, які є додатковим
+						місцем для зберігання;
+					</li>
+					<li class="item-list">
+						Кутові дивани Кутові дивани вважаються найзручнішими та комфортнішими.
+						Вони ідеально підійдуть для приємного проведення часу в колі сім'ї
+						або друзів. Кутові дивани в основному використовуються для оформлення
+						великих віталень, так як вони займають багато місця, і для кімнат з
+						невеликою площею просто не підійдуть;
+					</li>
+					<li class="item-list">
+						Тахти. Тахта - це одна з варіацій дивана, але стильніша і мінімалістична.
+						Виглядають тахти дуже незвично і можуть підійти для будь-якого
+						інтер'єру. Також тахти більше ніж звичайні дивани підходять для сну,
+						оскільки в їх основі не пружинні блоки, а дерев'яні ламелі або
+						ортопедичні матраци;
+					</li>
+					<li class="item-list">
+						Крісла. Крісло – це особливий предмет інтер'єру. Сучасні дизайнери не
+						часто використовують його, вважаючи застарілим, проте саме крісла
+						створюють особливий затишок та комфорт у будь-якій кімнаті. Сьогодні існує
+						величезна різноманітність класичних та сучасних моделей крісел, що
+						дозволяє кожному відшукати ідеальне крісло для свого будинку;
+					</li>
+					<li class="item-list">
+						Набір меблів. Комплект м'яких меблів – це відмінне рішення для тих,
+						хто хоче меблювати свою вітальню не лише диваном, а й кріслами. Існують
+						набори з одним або двома кріслами, із прямими або кутовими диванами.
+						Основна перевага будь-якого готового меблевого гарнітура – це те, що
+						предмети меблів у ньому ідеально поєднуються один з одним, і вам не
+						потрібно буде витрачати свій час та сили на їхній підбір.
+					</li>
+				</ul>
+				<p class="text-item">
+					Підбір м'яких меблів для вітальні – це заняття непросте. Однак при
+					виборі та покупці меблів для своєї вітальні пам'ятайте, що якісні
+					м'які меблі повинні бути не тільки красивими, але й зручними для вас
+					і всіх мешканців вашого будинку.
+				</p>
+			</div>
+		</section>
+
+		<!-- блок з макету Portfolio -->
+		<section class="article">
+			<div class="article-container">
+				<div class="content-wrap">
+					<h4 class="title-article">About me</h4>
+					<div class="content">
+						<p>Welcome to the cinematic realm of Jimmy, where creativity meets technology
+							to craft visually stunning narratives. With a passion for storytelling and
+							a keen eye for detail, I embark on a journey to transform ordinary footage
+							into extraordinary visual experiences.</p>
+					</div>
+				</div>
+
+				<ul class="skills-article">
+					<li class="item-skill">
+						Cash cow editing
+					</li>
+					<li class="item-skill">
+						Reels editng
+					</li>
+					<li class="item-skill">
+						logo animation
+					</li>
+					<li class="item-skill">
+						podcast edit
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="contacts">
+			<div class="contacts-wrap">
+				<div class="contacts-content">
+					<h5 class="contacts-title">
+						I am ready to consult you
+					</h5>
+					<div class="contacts-list">
+						<a class="contact-item icon-call" href="tel:+92455478112">
+							+92 455 478 112
+						</a>
+						<a class="contact-item icon-location" target="_blank"
+							href="https://www.google.com.ua/maps/@50.4843948,30.5643994,10.5z?hl=ru&entry=ttu">
+							defense phase 3,lahore pakistan
+						</a>
+						<a class="contact-item icon-email" target="_blank" href="videoeditor@gmail.com">
+							videoeditor@gmail.com
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="game1">
+			<div class="game_container">
+				<div class="game-wrap">
+					<h5 class="title-game">Рухайся кольоровою смугою і дізнаєшься цікаві фікти одного з унікальних місць</h5>
+					<div class="game">
+						<div class="game__line-1 game__line"></div>
+						<div class="game__line-2 game__line"> <span>Олешківська пустеля</span>- 200 гектарів гарячого піщаного
+							моря</div>
+						<div class="game__line-3 game__line"></div>
+						<div class="game__line-4 game__line">З'явилася пустеля через випасання величезних отар овець. А
+							знаходиться це місце в...</div>
+						<div class="game__line-5"></div>
+						<div class="game__line-6"></div>
+						<div class="game-img"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer-wrap">
+			<div class="arrow-top">
+				<a href="#section-7">Переглянути спочатку</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
