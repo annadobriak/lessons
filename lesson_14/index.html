@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__title">Lesson 14</h1>
+			</div>
+		</header>
+		<main class="page">
+			<div class="title">
+				<div class="title__container">
+					<h2 class="title__basket">
+						Оформлення замовлення
+					</h2>
+				</div>
+			</div>
+			<form class="basket-form" action="#">
+				<div class="basket-form__container">
+
+					<div class="basket-form__customer customer-info">
+						<h3 class="customer-info__title title-info">
+							Інформація про покупця
+						</h3>
+						
+						<div class="customer-info__items form-info">
+							<div class="form-info__item">
+								<input class="form-info__input" required name="form[]" type="text" placeholder="Прізвище">
+								<input class="form-info__input" required name="form[]" type="text" placeholder="Ім'я">
+								<input class="form-info__input" required name="form[]" type="text" placeholder="По батькові">
+							</div>
+							<div class="form-info__item">
+								<input class="form-info__input" required name="form[]" type="text"
+									placeholder="Контактний телефон">
+								<input class="form-info__input" name="form[]" type="text" placeholder="E-mail">
+							</div>
+						</div>
+
+						<div class="customer-info__choose">
+							<label class="customer-info__checkbox checkbox">
+								<input type="checkbox" class="checkbox__input" name="form[]">
+								<span class="checkbox__text">Отримуватиме замовлення інша людина</span>
+							</label>
+						</div>
+					</div>
+
+					<div class="basket-form__delivery delivery">
+						<h3 class="delivery__title title-info">
+							Вибір способу доставки
+						</h3>
+
+						<div class="delivery__radio radio-delivery">
+
+							<div class="radio-delivery__item">
+								<input class="radio-delivery__input" checked id="shop" type="radio" name="order[choice]">
+								<label class="radio-delivery__choose" for="shop">
+									<img class="radio-delivery__img" src="img/shop-1.svg" alt="Іконка">
+									<span class="radio-delivery__text1">Самовивіз із магазину</span>
+									<span class="radio-delivery__text2">Бесплатно</span>
+								</label>
+							</div>
+
+							<div class="radio-delivery__item">
+								<input class="radio-delivery__input" id="delivery" type="radio" name="order[choice]">
+								<label class="radio-delivery__choose" for="delivery">
+									<img class="radio-delivery__img" src="img/np.svg" alt="Іконка">
+									<span class="radio-delivery__text1">Доставка Нова Пошта</span>
+									<span class="radio-delivery__text2">≈ від 500 грн</span>
+								</label>
+							</div>
+
+							<div class="radio-delivery__item">
+								<input class="radio-delivery__input" id="courier" type="radio" name="order[choice]">
+								<label class="radio-delivery__choose" for="courier">
+									<img class="radio-delivery__img" src="img/courier.svg" alt="Іконка">
+									<span class="radio-delivery__text1">Доставка кур'єром</span>
+									<span class="radio-delivery__text2">≈ від 200 грн</span>
+								</label>
+							</div>
+
+						</div>
+
+						<div class="basket-form__location location">
+							<img class="location__img" src="img/location.svg" alt="">
+							<div class="location__block">
+								<p class="location__text1">Графік роботи: щодня з 9:00 до 18:00</p>
+								<p class="location__text2">м. Київ, пров. Ізяславський 52, пов. 2</p>
+							</div>
+							<a href="#" class="location__link">
+								<span>На мапі</span>
+							</a>
+						</div>
+
+					</div>
+
+					<div class="basket-form__payment payment">
+						<h3 class="payment__title title-info">
+							Вибір способу оплати
+						</h3>
+						<div class="payment__choose">
+							<label class="payment__choose-radio" for="payment-1">
+								<input class="payment__input" type="radio" name="order[payment]" id="payment-1" checked>
+								<span class="payment__text">Готівкою при отриманні (Післясплата)</span>
+							</label>
+							<label class="payment__choose-radio" for="payment-2">
+								<input class="payment__input" type="radio" name="order[payment]" id="payment-2">
+								<span class="payment__text">Оплата карткою на сайті</span>
+								<img src="img/master-card-logo.svg" class="payment__img" alt="">
+								<img src="img/visa-card-logo.svg" class="payment__img" alt="">
+							</label>
+							<label class="payment__choose-radio" for="payment-3">
+								<input class="payment__input" type="radio" name="order[payment]" id="payment-3">
+								<span class="payment__text">Privat Pay</span>
+								<img src="img/privat-pay-logo.svg" alt="" class="payment__img">
+							</label>
+							<label class="payment__choose-radio">
+								<input class="payment__input" type="radio" name="order[payment]">
+								<span class="payment__text">Кредит від Krovato</span>
+							</label>
+							<label class="payment__choose-radio">
+								<input class="payment__input" type="radio" name="order[payment]">
+								<span class="payment__text">Оплата частинами ПриватБанк</span>
+								<img src="img/privaty-credit-logo.svg" alt="" class="payment__img">
+							</label>
+							<label class="payment__choose-radio">
+								<input class="payment__input" type="radio" name="order[payment]">
+								<span class="payment__text">Оплата частинами МоноБанк</span>
+								<img src="img/mono-bank-logo.svg" alt="" class="payment__img">
+							</label>
+
+						</div>
+
+					</div>
+
+					<div class="basket-form__comment comment">
+						<h3 class="comment__title title-info">
+							Коментар до замовлення
+						</h3>
+						<textarea class="comment__textarea" placeholder="Ваш коментар" name="form[]"></textarea>
+					</div>
+
+
+					<div class="basket-form__order order">
+						<div class="order__btn">
+							<button class="order__text" type="submit">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+						</div>
+					</div>
+
+
+				</div>
+			</form>
+		</main>
+
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
